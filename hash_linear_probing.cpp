@@ -23,10 +23,10 @@ struct Contacts
 	
 };
 
-struct Contacts* hashArray[SIZE];
+struct Contacts* hashArray[SIZE]; // bucket of size 'SIZE' for storing elements
+
+
 //hash function return index
-
-
 ll hashCode(ll Phone)
 {
 	return Phone%SIZE;
