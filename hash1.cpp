@@ -120,13 +120,13 @@ int main(int argc, char const *argv[])
 {
 	
 	struct Contacts *x1;
-	insert(9521399493,"Subhash Kumar");
-	insert(9085719273,"Rahul Kumar");
-	insert(8294107695,"sk");
+	insert(95213994,"Subhash Kumar");
+	insert(90857192,"Rahul Kumar");
+	insert(82941076,"shk");
 
-	x1 = search(9521399493);
+	x1 = search(95213994);
 	cout << x1->Name << endl;
-	x1  = search(8294107695);
+	x1  = search(82941076);
 	cout << x1->Name << endl;
 
 	
