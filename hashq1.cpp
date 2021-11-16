@@ -1,4 +1,4 @@
-/*
+/* PROBLEM STATEMENT
 Find a pair with the given sum in an array
 
 ex - 
@@ -8,7 +8,9 @@ sum = 10
 output:
 Pair found (8,2)
 Pair found (7,3)
+*/
 
+/*
 
 // method 1 : using brute force method  - O(n^2)
 	method 2 : using sorting - low = 0, hi = n-1
